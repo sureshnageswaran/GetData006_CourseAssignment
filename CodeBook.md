@@ -13,8 +13,8 @@ Procedure:
 Y_test, subject_test and activity_labels ) are consolidated into a single dataset. The function invoked to do this is consolidateDatasets()
 5. Further, this dataset is filtered to ensure only the columns containing mean() and std() 
 data are retained. This dataset is saved under /output/tidy/FirstTidyDataset.csv. The function invokeed to do this is createTidyDataset()
-6. The run_analysis() function finally invokes the createSecondTidyDataset() function to create the SecondTidyDataset.csv file. This file
-contains average values for all the 66 variables for the Subject/Activity pairs.
+6. The run_analysis() function finally invokes the createSecondTidyDataset() function to create the SecondTidyDataset.csv file. This file contains average values for all the 66 variables for the Subject/Activity pairs.
+7. The same file is also generated using write.table in .txt format. The data is identical, except the separators are spaces instead of commas.
 
 Variable List
 =============
