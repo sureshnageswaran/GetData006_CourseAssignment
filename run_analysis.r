@@ -263,6 +263,8 @@ createSecondTidyDataset<-function(sPath="c:/projects/rwork/Getdata006/Assignment
   df <- read.csv("output/tidy/FirstTidyDataset.csv")
   df <- aggregate(.~Subject+ActivityLabels, data=df, FUN=mean)
   write.csv(df, "output/tidy/SecondTidyDataset.csv", row.names=FALSE, quote=FALSE)
+  # Added because submission requires a .txt file not a .csv file
+  write.table(df, "output/tidy/SecondTidyDataset.txt", row.names=FALSE, quote=FALSE)
   
   return(df)
 }
