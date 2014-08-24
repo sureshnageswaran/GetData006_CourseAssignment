@@ -31,6 +31,8 @@ Submitted Items
 
 FirstTidyDataset.csv found at this location : https://github.com/sureshnageswaran/GetData006_CourseAssignment/blob/master/FirstTidyDataset.csv
 SecondTidyDataset.csv found at this location: https://github.com/sureshnageswaran/GetData006_CourseAssignment/blob/master/SecondTidyDataset.csv
+The second tidy dataset in txt file format(as opposed to csv) is here. The contents are identical:
+https://github.com/sureshnageswaran/GetData006_CourseAssignment/blob/master/SecondTidyDataset.txt
 
 2) Link to a Github repository with the script for performing the analysis
 
@@ -56,7 +58,8 @@ Assumptions and Requirements:
 4. Invoke run_analysis() with the path to UCI HAR Dataset 
 e.g. If UCI HAR Dataset is located at C:/projects/rwork/getdata006/assignment/UCI HAR Dataset in your drive, then run the command below
      run_analysis ("C:/projects/rwork/getdata006/assignment/") 
-5. The run_analysis() function returns a data frame. You can choose to capture it or view the results in the /output/tidy folder. Files are FirstTidyDataset.csv and SecondTidyDataset.csv.
+5. The run_analysis() function returns a data frame. You can choose to capture it or view the results in the /output/tidy folder. Files are FirstTidyDataset.csv , SecondTidyDataset.csv and SecondTidyDataset.txt.
+6. The SecondTidyDataset.csv and .txt files are identical in data. The only difference is the generation of the .txt was done with write.table instead of write.csv.
 
 
 The dataset includes the following files:
@@ -71,3 +74,4 @@ The dataset includes the following files:
 - 'FirstTidyDataset.csv' - The output from running run_analysis.r
 
 - 'SecondTidyDataset.csv' - The output from running run_analysis.r
+- 'SecondTidyDataset.txt' - The output in .txt format
