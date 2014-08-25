@@ -19,71 +19,144 @@ data are retained. This dataset is saved under /output/tidy/FirstTidyDataset.csv
 Variable List
 =============
 Subject : The subject (1:30)
+
 ActivityLabels : The descriptive activities (SITTING, LAYING, STANDING, WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS)
 
-tBodyAccMeanX  : Variable of interest 
+---------------------------------------------
+Time Variables
+---------------------------------------------
+
+tBodyAccMeanX  : Variable of interest
+
 tBodyAccMeanY : Variable of interest 
+
 tBodyAccMeanZ : Variable of interest 
+
 tBodyAccStdX : Variable of interest 
+
 tBodyAccStdY : Variable of interest 
+
 tBodyAccStdZ : Variable of interest 
+
 tGravityAccMeanX : Variable of interest 
+
 tGravityAccMeanY : Variable of interest 
+
 tGravityAccMeanZ : Variable of interest 
+
 tGravityAccStdX : Variable of interest 
+
 tGravityAccStdY : Variable of interest 
+
 tGravityAccStdZ : Variable of interest 
+
 tBodyAccJerkMeanX : Variable of interest 
+
 tBodyAccJerkMeanY : Variable of interest 
+
 tBodyAccJerkMeanZ : Variable of interest 
+
 tBodyAccJerkStdX : Variable of interest 
+
 tBodyAccJerkStdY : Variable of interest 
+
 tBodyAccJerkStdZ : Variable of interest 
+
 tBodyGyroMeanX : Variable of interest 
+
 tBodyGyroMeanY : Variable of interest 
+
 tBodyGyroMeanZ : Variable of interest 
+
 tBodyGyroStdX : Variable of interest 
+
 tBodyGyroStdY : Variable of interest 
+
 tBodyGyroStdZ : Variable of interest 
+
 tBodyGyroJerkMeanX : Variable of interest 
+
 tBodyGyroJerkMeanY : Variable of interest 
+
 tBodyGyroJerkMeanZ : Variable of interest 
+
 tBodyGyroJerkStdX : Variable of interest 
+
 tBodyGyroJerkStdY : Variable of interest 
+
 tBodyGyroJerkStdZ : Variable of interest 
+
 tBodyAccMagMean : Variable of interest 
+
 tBodyAccMagStd : Variable of interest 
+
 tGravityAccMagMean : Variable of interest 
+
 tGravityAccMagStd : Variable of interest 
+
 tBodyAccJerkMagMean : Variable of interest 
+
 tBodyAccJerkMagStd : Variable of interest 
+
 tBodyGyroMagMean : Variable of interest 
+
 tBodyGyroMagStd : Variable of interest 
+
 tBodyGyroJerkMagMean : Variable of interest 
+
 tBodyGyroJerkMagStd : Variable of interest 
+---------------------------------------------
+Frequency Variables
+---------------------------------------------
+
 fBodyAccMeanX : Variable of interest 
+
 fBodyAccMeanY : Variable of interest 
+
 fBodyAccMeanZ : Variable of interest 
+
 fBodyAccStdX : Variable of interest 
+
 fBodyAccStdY : Variable of interest 
+
 fBodyAccStdZ : Variable of interest 
+
 fBodyAccJerkMeanX : Variable of interest 
+
 fBodyAccJerkMeanY : Variable of interest 
+
 fBodyAccJerkMeanZ : Variable of interest 
+
 fBodyAccJerkStdX : Variable of interest 
+
 fBodyAccJerkStdY : Variable of interest 
+
 fBodyAccJerkStdZ : Variable of interest 
+
 fBodyGyroMeanX : Variable of interest 
+
 fBodyGyroMeanY : Variable of interest 
+
 fBodyGyroMeanZ : Variable of interest 
+
 fBodyGyroStdX : Variable of interest 
+
 fBodyGyroStdY : Variable of interest 
+
 fBodyGyroStdZ : Variable of interest 
+
 fBodyAccMagMean : Variable of interest 
+
 fBodyAccMagStd : Variable of interest 
+
 fBodyBodyAccJerkMagMean : Variable of interest 
+
 fBodyBodyAccJerkMagStd : Variable of interest 
+
 fBodyBodyGyroMagMean : Variable of interest 
+
 fBodyBodyGyroMagStd : Variable of interest 
+
 fBodyBodyGyroJerkMagMean : Variable of interest 
+
 fBodyBodyGyroJerkMagStd : Variable of interest 
