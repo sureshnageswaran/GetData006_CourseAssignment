@@ -40,17 +40,17 @@ run_analysis <- function(sPath = "c:/Projects/Rwork/Getdata006/Assignment")
   createOutput(sPath)
   
   # Consolidate the test and training datasets
-  consolidateDatasets()
+  consolidateDatasets(sPath)
   
   # Create the first 'Tidy' dataset
   # It comprises of the consolidated dataset with subject, 
   # activity descriptions and 66 variables (33 for mean, 33 for Stdev)
-  createTidyDataset()
+  createTidyDataset(sPath)
   
   # Now create the second 'tidy' dataset
   # This contains the average values for all 66 variables for each 
   # subject and activity
-  df <- createSecondTidyDataset()
+  df <- createSecondTidyDataset(sPath)
   return(df)
   
 }
@@ -196,7 +196,7 @@ createTidyDataset<- function(sPath="c:/Projects/Rwork/Getdata006/Assignment")
   dfAct <- read.delim("output/raw/activity_labels.txt", header=FALSE, sep=" ")
   
   # Now read in the columns of interest in the FirstTidyDataset file
-  dfCols <- getColNames()
+  dfCols <- getColNames(sPath)
   
   # Read in output/tidy/FirstTidyDataset.txt line by line (this is a v big dataset)
   inCon <- file(paste(sPath, "/output/tidy/FirstTidyDataset.txt", sep=""), open="r")
